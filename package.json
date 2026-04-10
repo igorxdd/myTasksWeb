@@ -1,0 +1,8 @@
+{
+  "name": "mytasks-monorepo-root",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install --prefix MyTasks-web/backend",
+    "mytaskz": "npm --prefix MyTasks-web/backend run start"
+  }
+}
